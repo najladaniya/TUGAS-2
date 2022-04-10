@@ -1,0 +1,18 @@
+class Teacher {
+   String designation = "Teacher";
+   String collegeName = "CCIT FTUI";
+   void does(){
+	System.out.println("Teaching");
+   }
+}
+
+public class TITeacher extends Teacher{
+   String mainSubject = "TI";
+   public static void main(String args[]){
+	TITeacher obj = new TITeacher();
+	System.out.println(obj.collegeName);
+	System.out.println(obj.designation);
+	System.out.println(obj.mainSubject);
+	obj.does();
+   }
+}
